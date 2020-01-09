@@ -1,0 +1,35 @@
+{
+  "logs": [
+    {
+      "id": 3,
+      "message": "dsadas",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "Fri Jan 10 2020 00:20:12 GMT+0100 (czas środkowoeuropejski standardowy)"
+    },
+    {
+      "id": 4,
+      "message": "dsad",
+      "attention": true,
+      "tech": "Mateusz Swiate",
+      "date": "Fri Jan 10 2020 00:38:39 GMT+0100 (czas środkowoeuropejski standardowy)"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "firstName": "Mateusz",
+      "lastName": "Swiate",
+      "id": 3
+    }
+  ]
+}
