@@ -11,7 +11,7 @@ const AddLogModal = ({ addLog }) => {
   const [tech, setTech] = useState('')
 
   const onSubmit = () => {
-    const log = { message, attention, tech, date: Date(Date.now()) }
+    const log = { message, attention, tech, date: Date.now() }
 
     if (message === '' || tech === '') {
       M.toast({ html: "Please enter all fields" })
