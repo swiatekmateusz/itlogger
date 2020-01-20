@@ -15,11 +15,12 @@ const AddLogModal = ({ addLog }) => {
 
     if (message === '' || tech === '') {
       M.toast({ html: "Please enter all fields" })
+    } else {
+      addLog(log)
+      setMessage('')
+      setAttention(false)
+      setTech('')
     }
-    addLog(log)
-    setMessage('')
-    setAttention(false)
-    setTech('')
   }
 
   return (
