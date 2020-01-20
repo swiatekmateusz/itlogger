@@ -7,7 +7,9 @@ const middlewares = jsonServer.defaults();
 var router = jsonServer.router(demodata) // Express router
 var server = jsonServer.create()       // Express server
 
-server.use('/static', express.static(path.join(__dirname, 'client', 'public', 'index.html')))
+//server.use('/static', express.static(path.join(__dirname, 'client', 'public', 'index.html')))
+
+server.use('/', express.static(path.join(__dirname, 'client', 'build')))
 
 // Avoid CORS issue
 server.use(function (req, res, next) {
